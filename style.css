@@ -1,0 +1,116 @@
+
+#flag{
+margin: 0px;
+padding: 0px;
+border-radius: 80px 80px 80px 80px;
+display: block;
+position: absolute;   /* Logo aus dem normalen Flow nehmen */
+top: 10px;            /* Abstand von oben */
+left: 10px;           /* Abstand von links */
+width: 90px;          /* kleinere Größe, anpassen nach Wunsch */
+height: 60px;         /* Höhe passt sich automatisch an */
+border-radius: 60%;
+    
+}
+
+h1{
+    text-align: left;
+    margin: 20px 0px 0px 115px;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: color 0.3s ease;    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1:hover{
+    color: rgb(255, 0, 0);
+}
+
+
+#hh{
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+}
+
+.navbar ul{
+ list-style-type: none;
+ background-color: rgb(225, 156, 156);
+ padding: 0px;
+ margin: 0px;
+ overflow: hidden;
+border-bottom: 2px solid rgb(99, 99, 99);
+}
+.navbar a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+}
+.navbar li{
+    float: left;
+    text-align: center;
+}
+.navbar a{
+    text-align: center;
+    margin: auto;
+    font-size: 18px;
+    
+}
+.box{
+    width: 50%;
+    margin: 50px auto;
+    padding: 34px;
+    background-color: rgb(184, 179, 179);
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 30px;
+    margin-right: 10px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+    
+}
+
+#p2{
+    text-align: center;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+video{
+    display: block;
+    margin: 20px;
+    background-color: rgb(184, 179, 179);
+    border-radius: 30px;
+    margin-top: -350px;
+     box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+h2{
+    text-align: right;
+    margin-right: auto;
+    margin-left: -80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+.Box28{ 
+    border: 20px solid rgb(194, 193, 193);
+    border-radius: 50px;
+    margin: 20px auto;
+}
+
+
+footer{
+    background-color: rgb(225, 156, 156);
+    text-align: center;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-top: 2px solid rgb(99, 99, 99);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+}
